@@ -1,0 +1,49 @@
+:root{
+    --blanco:#ffffff;
+    --oscuro:#30261c;
+    --gris:#403831;
+    --verdeoscuro:hsl(170, 22%, 27%);
+    --azulado:#1f5f61;
+    --azulverde:#0b8185;
+    --amarillo:#f8be00;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+}
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+.contenedor{
+    width: 80rem;
+    margin: 0 auto 0 auto;
+}
+.nav-bg{
+    background-color:var(--azulverde) ;
+    
+}
+.navegacion-principal{
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion-principal a{
+   color: var(--blanco);
+   text-decoration: none;
+   font-size: 2rem;
+   font-weight: bold;
+   padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color: var(--amarillo);
+    color: var(--oscuro);
+    border-radius: 3rem;
+}
