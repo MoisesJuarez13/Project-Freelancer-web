@@ -41,10 +41,12 @@
         <a class="botton" href="#">Contactar</a>
         </div>  
     </section>
-    <main>
+    <main class="contenedor sombra">
         <h2>Mis servicios</h2>
-        <section>
+        <div class="servicios">
+        <section class="servicio">
             <h3>Diseño Web</h3> 
+            <div class="iconos">
             <p>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -54,10 +56,12 @@
                 <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
               </svg>
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, mollitia tenetur molestiae cons</p>
+        </div>
+            <p class="textServicios">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, mollitia tenetur molestiae cons</p>
         </section>
-        <section>
+        <section class="servicio">
             <h3>Aplicaciones Web</h3>
+            <div class="iconos">
             <p>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -75,10 +79,12 @@
                 <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
               </svg>
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, mollitia tenetur molestiae cons</p>
+        </div>
+            <p class="textServicios">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, mollitia tenetur molestiae cons</p>
         </section>
-        <section>
+        <section class="servicio">
             <h3>E-commers</h3>
+            <div class="iconos">
             <p>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -88,41 +94,44 @@
                 <path d="M11 15l2 0" />
               </svg>
             </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, mollitia tenetur molestiae cons</p>
+        </div>
+            <p class="textServicios">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, mollitia tenetur molestiae cons</p>
         </section>
-    </main>
+    </div>
     <section>
         <h2>Contacto</h2>
-        <form>
+        <form class="formulario">
             <fieldset>
                 <legend>Contactame llenando todos los campos</legend>
-                <div>
+                <div class="contenedor-campos">
+                <div class="campo">
                     <label>Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">
+                    <input class="inputText" type="text" placeholder="Tu Nombre">
                 </div>
                    
-                <div>
+                <div class="campo">
                     <label>Telefono</label>
-                    <input type="tel" placeholder="Tu Telefono">
+                    <input class="inputText" type="tel" placeholder="Tu Telefono">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label>Correo</label>
-                    <input type="email" placeholder="Tu Correo">
+                    <input class="inputText" type="email" placeholder="Tu Correo">
                 </div>
 
-                <div>
+                <div class="campo">
                     <label>Mensaje</label>
-                    <textarea></textarea>
+                    <textarea class="inputText"></textarea>
                 </div>
-
-                <div>
-                    <input type="submit" value="Enviar">
+            </div>
+                <div class="enviar">
+                    <input class="botton" type="submit" value="Enviar">
                 </div>
             </fieldset>
         </form>
     </section>
-    <footer>
+</main>
+    <footer class="footer">
         <p>Todos los derechos reservados Moises Juarez</p>
     </footer>
     
